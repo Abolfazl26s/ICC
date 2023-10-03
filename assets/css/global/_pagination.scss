@@ -1,0 +1,32 @@
+/*================================================
+Pagination Area CSS
+=================================================*/
+
+.pagination-area {
+  text-align: center;
+  margin-top: 20px;
+
+  .page-numbers {
+    width: 35px;
+    height: 35px;
+    margin: 0 3px;
+    display: inline-block;
+    background-color: #ffffff;
+    line-height: 35px;
+    color: #202647;
+    -webkit-box-shadow: 0 2px 10px 0 #d8dde6;
+    box-shadow: 0 2px 10px 0 #d8dde6;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+
+    &.current,
+    &:hover,
+    &:focus {
+      background: #ff922b;
+      color: #ffffff;
+      -webkit-box-shadow: 0 2px 10px 0 #d8dde6;
+      box-shadow: 0 2px 10px 0 #d8dde6;
+    }
+  }
+}

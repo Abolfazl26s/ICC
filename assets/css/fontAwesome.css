@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Font Awesome regular';
+  src: url(../webfonts/fa-regular-400.woff);
+}
+
+@font-face {
+  font-family: 'Font Awesome solid';
+  src: url(../webfonts/fa-solid-900.woff);
+}
+
+@font-face {
+  font-family: 'Font Awesome Brands';
+  src: url(../webfonts/fa-Brands-400.woff);
+}
+
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.search-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\f002';
+}
+.home-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\e1b0';
+}
+
+.department-icon::before {
+  font-family: 'Font Awesome Brands';
+  font-weight: 400;
+  content: '\f837';
+}
+
+.gallery-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\f302';
+}
+
+.news-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\f143';
+}
+
+.blog-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\f781';
+}
+
+.contact-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\f879';
+}
+
+.tps::before {
+  font-family: 'Font Awesome';
+  font-weight: 400;
+  content: '\f1ea';
+}
+
+.about-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\f2bb';
+}
+.chevrons-left-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\f323';
+}
+
+.chevrons-right-icon::before {
+  font-family: 'Font Awesome solid';
+  font-weight: 900;
+  content: '\f324';
+}
+.twitter-icon::before {
+  font-family: 'Font Awesome 6 Brands';
+  content: '\f099';
+}
+.clock-icon::before {
+  font-family: 'Font Awesome regular';
+  font-weight: 400;
+  content: '\f017';
+}
+
+.map-icon::before {
+  font-family: 'Font Awesome regular';
+  font-weight: 400;
+  content: '\f59f';
+}
+
+.email-icon::before {
+  font-family: 'Font Awesome regular';
+  font-weight: 400;
+  content: '\e170';
+}
+
+.phone-icon-R::before {
+  font-family: 'Font Awesome regular';
+  font-weight: 400;
+  content: '\f879';
+}
+
+.instagram-icon::before {
+  font-family: 'Font Awesome Brands';
+  font-weight: 400;
+  content: '\f16d';
+}
